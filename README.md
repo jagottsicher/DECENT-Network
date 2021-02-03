@@ -109,7 +109,7 @@ In order to build and install DCore, execute in console:
 
     mkdir -p ~/dev/DECENT-Network-build
     cd ~/dev/DECENT-Network-build
-    cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ~/dev/DECENT-Network
+    cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ~/DECENT-Network
     cmake --build . --target all -- -j -l 3.0
     cmake --build . --target install
 
